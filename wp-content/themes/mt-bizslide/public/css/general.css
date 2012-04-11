@@ -1,0 +1,64 @@
+/**
+ * @author nuarharuha <nhnoah@gmail.com>
+ */
+
+.cwrap{
+    background:#2da8d6 url('../img/gradient-light.png') no-repeat 0% 0%;
+}
+
+header{
+    padding-top:0.8em;
+}
+
+header hgroup h1 a{
+    text-indent: -999em;
+    background:  transparent url('../img/logo.png') no-repeat;
+    overflow:hidden;
+    display:block; 
+    width: 157px;
+    height:40px;
+    float:left;
+}
+
+header h2{display:none;}
+
+nav ul li{
+    float:left;
+}
+
+header nav li{    
+    background:  transparent url('../img/hnav.png') repeat-x;
+    height:38px;
+    padding: 8px 4px 0pt;
+} 
+
+nav li a{
+    color:#0e6285;
+    text-decoration:none;
+}
+
+header nav ul li.first{
+    background-image: url('../img/hnav-left.png');
+    background-position: 0% 0%;
+    padding-left:2em;
+}
+
+header nav ul li.last{
+    background-image: url('../img/hnav-right.png');
+    background-position: 100% 0%;
+    padding-right:2em;
+}
+
+header nav{
+    display:block;
+    width: 337px;
+    float:right;
+    font-size: 0.8em;
+}
+
+/* background images 
+ */
+
+#primary{
+    background: transparent url('../img/bg-main.png') no-repeat 50% 80%;
+}
